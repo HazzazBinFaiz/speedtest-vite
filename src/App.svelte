@@ -14,7 +14,13 @@
             speedText: '...',
             reachable: true,
         },
-        //{ name: 'JSDalivr', url: '', speed: 1024, speedText: 'Unreachable', reachable: false },
+        {
+	    name: '1 MB Payload',
+            url: './1mb',
+	    speed: 0,
+	    speedText: '...',
+	    reachable: true
+	},
     ];
 
     const totalTrip = 5;
